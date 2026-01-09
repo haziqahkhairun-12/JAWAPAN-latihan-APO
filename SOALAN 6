@@ -1,0 +1,14 @@
+#Soalan 6 (Pengendalian input jenis teks & nombor)
+#Create a Python program that receives:
+#the user’s name
+#the user’s age
+#Then display a message in the format:
+#Hello <name>, you are <age> years old.
+
+#answer
+user_name = input("Enter your name: ")
+name = str(user_name)
+user_age = input("Enter your age: ")
+age = int(user_age)
+
+print(f"Hello {name} , you are {age} years old.")
