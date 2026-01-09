@@ -1,0 +1,11 @@
+#Soalan 5 (Pengiraan berasaskan formula)
+#Create a Python program that receives the radius of a circle and calculates the area of the circle.
+#(Use the value of π = 3.142)
+
+#answer
+PI = 3.142
+
+radius_number = input("enter your radius of circle: ")
+radius = float(radius_number)
+area = PI * radius * radius
+print(f"the area of the circle is: {area}")
