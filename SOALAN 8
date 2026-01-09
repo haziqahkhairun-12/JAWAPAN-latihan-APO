@@ -1,0 +1,15 @@
+#Soalan 8 (Pengiraan kewangan mudah)
+#Create a Python program that receives:
+#the price of an item
+#the quantity purchased
+#Then calculate and display the total price.
+
+#answer
+price_number = input("enter the price of an item: ")
+price = float(price_number)
+
+quantity_number = input("enter the quantity purchased: ")
+quantity = int(quantity_number)
+
+total = price * quantity
+print(f"total price is: {total} ")
