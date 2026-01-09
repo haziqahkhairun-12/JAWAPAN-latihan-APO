@@ -1,0 +1,21 @@
+#Soalan 3 (Lebih daripada satu operasi)
+#Create a Python program that receives two numbers from the user and displays:
+#the sum
+#the difference
+#the product
+
+#answer
+first_number = input("enter the first number: ")
+second_number = input("enter the second number: ")
+
+first_number = int(first_number)
+second_number = int(second_number)
+
+sum_number = first_number + second_number
+print(f"the sum number of {first_number} and {second_number} is: {sum_number}")
+
+difference_number = first_number - second_number
+print(f"the difference between {first_number} and {second_number} is: {difference_number} ")
+
+product_number = first_number * second_number
+print(f"the product of {first_number} and {second_number} is: {product_number}")
