@@ -1,0 +1,24 @@
+#Soalan 9 (Gabungan pelbagai input & pengiraan)
+#Create a Python program that receives:
+#the name of a student
+#marks for three subjects
+#Then calculate and display:
+#the total marks
+#the average marks
+
+#answer
+student_name = input("enter student name: ")
+
+mark1_input = input("enter marks for subject 1: ")
+mark1 = float(mark1_input)
+mark2_input = input("enter marks for subject 2: ")
+mark2  = float(mark2_input)
+mark3_input = input("enter marks for subject 3: ")
+mark3  = float(mark3_input)
+
+total = mark1 + mark2 + mark3
+average = total / 3
+
+print(f"student name: {student_name}")
+print(f"total marks: {total}")
+print(f"average marks: {average}")
