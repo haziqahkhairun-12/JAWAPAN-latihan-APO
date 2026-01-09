@@ -1,0 +1,9 @@
+#Soalan 1 (Input & Output asas)
+#Create a Python program that receives one number from the user and displays the number back to the screen.
+
+#answer
+user_input = input("please enter a number: ")
+print("you entered: ", user_input)
+
+number = int(user_input)
+print(f"the number you entered is:  {number}")
